@@ -13,9 +13,9 @@ puts "Where would you like to go?"
 input = gets.strip
 
 # This line is not correct, however, why does adding this cause
-  a failure to find a board variable??? It's defined already, why would adding
-  this line undo that? Also, why is the color scheme different in this file (in VSC)?
-  comments not greyed out?
+#  a failure to find a board variable??? It's defined already, why would adding
+#  this line undo that? Also, why is the color scheme different in this file (in VSC)?
+#  comments not greyed out?
 # index = input.input_to_index
 
 index = input_to_index(input)
