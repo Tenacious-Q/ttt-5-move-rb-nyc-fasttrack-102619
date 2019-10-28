@@ -12,11 +12,13 @@ puts "Where would you like to go?"
 
 input = gets.strip
 
-# This line is not correct, however, why does adding this cause
+#  Issues / Questions / Confusion
+#  *Not sure if this is an appropriate place for these issues/comments
+#  This line (22) is not correct (wrong syntax), however, why does adding this cause
 #  a failure to find a board variable??? It's defined already, why would adding
-#  this line undo that? Also, why is the color scheme different in this file (in VSC)?
-#  comments not greyed out?
-#  and what are the "examples" referring to in the error messages?
+#  this line undo that?
+#  What exactly are the "examples" referring to in the learn error messages?
+#  is there a way to view a list of all the test "examples" for a given lab?
 # index = input.input_to_index
 
 index = input_to_index(input)
