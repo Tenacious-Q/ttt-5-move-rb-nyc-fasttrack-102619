@@ -16,6 +16,9 @@ input = gets.strip
 #  a failure to find a board variable??? It's defined already, why would adding
 #  this line undo that? Also, why is the color scheme different in this file (in VSC)?
 #  comments not greyed out?
+#  and what are the "examples" referring to in the error messages?
 # index = input.input_to_index
 
 index = input_to_index(input)
+
+move(index)
